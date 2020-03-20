@@ -19,7 +19,7 @@ st.write("This is a webapp which let's you visualise the Gradient Weighted Class
         "pre-trained VGG16 Convolutional Neural Net, trained on the ImageNet dataset. You also have the\n"
         "flexibility to select a specific layer of the model which will change the mappings accordingly. \n"
         "The output of the model is a heatmap which  highlights the pixels in the image which are \n"
-        "picked up by the model to classify the given image into a certain class.")
+        "picked up by the model to classify the given image into a certain class. yes")
 
 
 def preprocess(img, req_size = (224,224)):
